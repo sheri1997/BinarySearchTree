@@ -6,7 +6,11 @@ namespace BinarySearchTree
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To The Binary Search Tree Program");
+            Bst bst = new Bst();
+            bst.Insert(56);//this will first insert 56.
+            bst.Insert(30);//this will be added towards the left.
+            bst.Insert(70);//this will be added towards the right.
+            bst.displayTree();
         }
     }
 }

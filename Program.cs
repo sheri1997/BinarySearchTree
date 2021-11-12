@@ -21,6 +21,7 @@ namespace BinarySearchTree
             bst.Insert(63);
             bst.Insert(67);
             bst.displayTree();
+            bst.searchTree(63);
         }
     }
 }

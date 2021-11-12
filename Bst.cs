@@ -45,6 +45,18 @@ namespace BinarySearchTree
                 }
             }
         }
+        public Node searchTree(int value)
+        {
+            if(root==null ||root.Data==value)//if the root node is empty or value is present at the node.
+            {
+                return root;
+            }
+            if(root.Data<value)//if value is greater than the root
+            {
+                return searchTree(value);
+            }
+            return searchTree(value);
+        }
         public void displayTree()
         {
             Console.WriteLine("Tree = " + node.Data);

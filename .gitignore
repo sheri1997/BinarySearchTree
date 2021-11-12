@@ -1,0 +1,7 @@
+.git/
+.vs/
+bin/
+BinarySearchTree/
+obj/
+BinarySearchTree.csproj/
+
